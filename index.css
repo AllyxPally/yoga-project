@@ -250,3 +250,68 @@ p {
     padding: 5px;
     font-family: 'Merienda', cursive;
 }
+
+/* Media queries */
+
+/* Extra small devices (320px and up) */
+@media only screen and (max-width: 320px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px;
+        font-size: smaller;
+    }
+
+    .cover_text {
+        font-size: smaller;
+    }
+
+    #cover_content {
+        margin-left: 20px;
+    }
+}
+
+/* Small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 12px;
+    }
+
+    header {
+        display: flex;
+    }
+
+    section {
+        padding-bottom: 8px;
+    }
+
+    .cover_text {
+        font-size: smaller;
+    }
+
+    #cover_content {
+        margin-left: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    section {
+        padding-bottom: 15px;
+    }
+
+    #sign_up {
+        flex-wrap: wrap;
+    }
+
+    #opening_hours {
+        flex-wrap: wrap;
+    }
+}
