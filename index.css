@@ -76,7 +76,8 @@ section {
 .cover_text {
     display: flex;
     justify-content: center;
-    font-family: 'poppins';
+    font-family: 'Merienda', cursive;
+    ;
     margin: 22px;
     padding: 5px;
 }
@@ -95,20 +96,20 @@ section {
 }
 
 #about_us h2 {
-    font-family: 'poppins';
+    font-family: 'Merienda', cursive;
     margin-left: 1%;
 }
 
 .h_text {
     font-size: larger;
     text-align: center;
-    font-family: 'montserrat', italic;
+    font-family: 'poppins', sans-serif;
     text-decoration-line: underline;
 
 }
 
 #about_content p {
-    font-family: 'montserrat', italic;
+    font-family: 'poppins', sans-serif;
     font-size: 16px;
 }
 
@@ -117,7 +118,8 @@ section {
     display: flex;
     background-color: #7F95D1;
     justify-content: space-evenly;
-    font-family: 'poppins';
+    font-family: 'Merienda', cursive;
+    ;
 }
 
 #signup_container {
@@ -151,7 +153,7 @@ section {
     width: 100%;
     height: 25px;
     margin-top: 8px;
-    font-family: 'poppins';
+    font-family: 'Merienda', cursive;
     font-size: 16px;
 }
 
@@ -177,10 +179,74 @@ input [type=text] {
     background-color: #ffffff;
     color: #0B0A09;
     padding: 12px;
-    font-family: 'poppins';
+    font-family: 'poppins', sans-serif;
 }
 
 .form_button:hover {
     cursor: pointer;
-    background-color: #131373;
+    background-color: #5f5f92;
+}
+
+/* Opening Hours */
+#opening_hours {
+    background-color: #28965A;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'poppins', sans-serif;
+}
+
+#open_container {
+    padding: 25px;
+    margin-right: 20px;
+    margin-top: 12%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #0B0A09;
+    padding: 15px;
+}
+
+#opening_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 12px;
+    max-width: 75%;
+}
+
+/* Footer */
+#footer {
+    line-height: 20px;
+    padding: 10px;
+    background-color: #01A292;
+}
+
+#social_links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social_links a {
+    color: #0B0A09;
+}
+
+.submit_page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+
+}
+
+.submit_page h1,
+p {
+    margin: 12px;
+    padding: 5px;
+    font-family: 'Merienda', cursive;
 }
